@@ -1,7 +1,13 @@
 import React from "react";
+import Banner from "componentes/Banner";
 
 function Home() {
-  return <h1>Olá Mundo</h1>;
+  return (
+    <main>
+      <Banner />
+      <h1>Olá mundo!</h1>
+    </main>
+  );
 }
 
 export default Home;
