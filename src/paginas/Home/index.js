@@ -6,8 +6,6 @@ import Post from "componentes/Post";
 
 function Home() {
   return (
-    <main>
-      <Banner />
       <ul className={styles.posts}>
         {posts.map((post) => (
           <li key={post.id}>
@@ -15,7 +13,6 @@ function Home() {
           </li>
         ))}
       </ul>
-    </main>
   );
 }
 
