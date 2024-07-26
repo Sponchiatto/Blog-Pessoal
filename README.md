@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Blog Pessoal - Alura
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Captura de tela 2024-07-26 104128](https://github.com/user-attachments/assets/8bdd2c9d-e6a7-43a8-b7d0-f1d695420cf5)
 
-## Available Scripts
+Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+## Índice
+- [Comandos Importantes](#comandos-importantes)
+- [Tecnologias](#tecnologias)
+- [Objetivo do Projeto](#objetivo-do-projeto)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+
+## Comandos Importantes
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para abrir o projeto no modo desenvolvedor.\
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no seu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `npm build`
+
+Para criar uma versão otimizada do projeto para produção. Os arquivos serão gerados na pasta `build`.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para rodar os testes configurados no projeto.
 
-### `npm run build`
+### `npm eject`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para ejetar as configurações de Create React App, permitindo personalizações adicionais. **Nota**: Esta ação é irreversível.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologias
+- **React**: Biblioteca JavaScript para construir interfaces de usuário.
+- **React Router Dom**: Gerenciar rotas e navegação em aplicações React.
+- **React Markdown**: Permite renderizar conteúdo escrito em Markdown como elementos React, convertendo texto em HTML.
+- **Create React App**: Ferramenta oficial do React para configurar um ambiente de desenvolvimento moderno com zero configuração.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Objetivo do Projeto
+Esse projeto tem por finalidade a visualização, organização, formatação e leitura de posts através de arquivos estáticos JSON. Utiliza React Router Dom para gerenciar rotas de navegação e React Markdown para converter texto Markdown em HTML e, assim, estruturar o texto no post.
 
-### `npm run eject`
+## Instalação
+Para instalar e configurar o projeto localmente, siga os passos abaixo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+git clone https://github.com/Sponchiatto/Blog-Pessoal.git
+cd Blog-Pessoal
+npm install
+```
+# Uso
+Para iniciar o projeto, use o comando:
+```
+npm start
+```
+Isso abrirá o projeto no modo desenvolvedor em http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Contribuição
+Se você deseja contribuir para o projeto, siga as orientações abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Faça um fork do projeto.
+2. Crie uma nova branch (git checkout -b feature/nova-funcionalidade).
+3. Faça commit das suas alterações (git commit -m 'Adiciona nova funcionalidade').
+4. Faça push para a branch (git push origin feature/nova-funcionalidade).
+5. Abra um Pull Request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Contato
+Para mais informações ou perguntas, entre em contato:
 
-## Learn More
+Nome: Rafael Sponchiatto Silva
+Email: rafael_sponchiatto@hotmail.com
+LinkedIn: https://www.linkedin.com/in/rafaelspon/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
