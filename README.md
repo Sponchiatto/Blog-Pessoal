@@ -68,6 +68,8 @@ Se você deseja contribuir para o projeto, siga as orientações abaixo:
 Para mais informações ou perguntas, entre em contato:
 
 Nome: Rafael Sponchiatto Silva
+
 Email: rafael_sponchiatto@hotmail.com
+
 LinkedIn: https://www.linkedin.com/in/rafaelspon/
 
